@@ -1,0 +1,42 @@
+body{
+    background: #bcbcbc;
+
+}
+nav{
+    height: 50px;
+}
+#actualizar{
+    display: none;
+}
+#product-list {
+    max-height: 550px; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical */
+}
+.total{
+    max-width: 250px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+#totalCuenta{
+    color: black;
+}
+#totalPendiente{
+    color: red;
+}
+#totalGeneral{
+    width: 45%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.form{
+    border-radius: 14px;
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 7px #bcbcbc,
+                inset -7px -7px 7px #ffffff;
+}
+input{
+    height: 50px;
+}
+
